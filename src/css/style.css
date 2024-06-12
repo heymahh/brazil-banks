@@ -1,0 +1,415 @@
+@font-face {
+  font-family: 'brazilbanks';
+  src:  url('../fonts/brazilbanks.eot?9ivakf');
+  src:  url('../fonts/brazilbanks.eot?9ivakf#iefix') format('embedded-opentype'),
+    url('../fonts/brazilbanks.ttf?9ivakf') format('truetype'),
+    url('../fonts/brazilbanks.woff?9ivakf') format('woff'),
+    url('../fonts/brazilbanks.svg?9ivakf#brazilbanks') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'brazilbanks' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bank-banrisul .path1:before {
+  content: "\e900";
+  color: rgb(30, 33, 70);
+}
+.bank-banrisul .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(63, 123, 191);
+}
+.bank-banrisul .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(127, 111, 177);
+}
+.bank-banrisul .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(81, 188, 187);
+}
+.bank-bb .path1:before {
+  content: "\e904";
+  color: rgb(250, 235, 61);
+}
+.bank-bb .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(36, 97, 166);
+}
+.bank-bb .path3:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(36, 97, 166);
+}
+.bank-bb .path4:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(36, 97, 166);
+}
+.bank-bb .path5:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(36, 97, 166);
+}
+.bank-bmg .path1:before {
+  content: "\e909";
+  color: rgb(236, 101, 28);
+}
+.bank-bmg .path2:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(70, 42, 113);
+}
+.bank-bmg .path3:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-bradesco .path1:before {
+  content: "\e90c";
+  color: rgb(205, 37, 41);
+}
+.bank-bradesco .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-bradesco .path3:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-bradesco .path4:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-brb .path1:before {
+  content: "\e910";
+  color: rgb(25, 64, 123);
+}
+.bank-brb .path2:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-brb .path3:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-btg .path1:before {
+  content: "\e913";
+  color: rgb(34, 44, 87);
+}
+.bank-btg .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-c6 .path1:before {
+  content: "\e915";
+  color: rgb(0, 0, 0);
+}
+.bank-c6 .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-caixa .path1:before {
+  content: "\e917";
+  color: rgb(0, 92, 169);
+}
+.bank-caixa .path2:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(240, 144, 5);
+}
+.bank-caixa .path3:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(240, 144, 5);
+}
+.bank-caixa .path4:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-caixa .path5:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-digio .path1:before {
+  content: "\e91c";
+  color: rgb(30, 45, 83);
+}
+.bank-digio .path2:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(39, 158, 217);
+}
+.bank-digio .path3:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-inter .path1:before {
+  content: "\e91f";
+  color: rgb(235, 114, 5);
+}
+.bank-inter .path2:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-itau .path1:before {
+  content: "\e921";
+  color: rgb(236, 100, 28);
+}
+.bank-itau .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-itau .path3:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-itau .path4:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-itau .path5:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-itau .path6:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-itau .path7:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-neon .path1:before {
+  content: "\e950";
+  color: rgb(69, 134, 198);
+}
+.bank-neon .path2:before {
+  content: "\e951";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-next .path1:before {
+  content: "\e928";
+  color: rgb(108, 181, 60);
+}
+.bank-next .path2:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.bank-next .path3:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.bank-next .path4:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.bank-next .path5:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.bank-nubank .path1:before {
+  content: "\e92d";
+  color: rgb(109, 58, 142);
+}
+.bank-nubank .path2:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-original .path1:before {
+  content: "\e92f";
+  color: rgb(21, 168, 87);
+}
+.bank-original .path2:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-original .path3:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-others .path1:before {
+  content: "\e932";
+  color: rgb(181, 181, 220);
+}
+.bank-others .path2:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(110, 102, 171);
+}
+.bank-others .path3:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(110, 102, 171);
+}
+.bank-others .path4:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(110, 102, 171);
+}
+.bank-others .path5:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(110, 102, 171);
+}
+.bank-others .path6:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(110, 102, 171);
+}
+.bank-others .path7:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(110, 102, 171);
+}
+.bank-picpay .path1:before {
+  content: "\e939";
+  color: rgb(73, 176, 95);
+}
+.bank-picpay .path2:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-picpay .path3:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-picpay .path4:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-picpay .path5:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-safra .path1:before {
+  content: "\e93e";
+  color: rgb(29, 33, 67);
+}
+.bank-safra .path2:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(196, 172, 108);
+}
+.bank-santander .path1:before {
+  content: "\e940";
+  color: rgb(229, 37, 32);
+}
+.bank-santander .path2:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-sicoob .path1:before {
+  content: "\e942";
+  color: rgb(0, 59, 67);
+}
+.bank-sicoob .path2:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(112, 183, 74);
+}
+.bank-sicoob .path3:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(4, 175, 157);
+}
+.bank-sicoob .path4:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(184, 207, 58);
+}
+.bank-sicredi .path1:before {
+  content: "\e946";
+  color: rgb(64, 162, 53);
+}
+.bank-sicredi .path2:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-sicredi .path3:before {
+  content: "\e948";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-votorantim .path1:before {
+  content: "\e949";
+  color: rgb(88, 115, 183);
+}
+.bank-votorantim .path2:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(67, 191, 230);
+}
+.bank-votorantim .path3:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.bank-votorantim .path4:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+}
+.bank-votorantim .path5:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(67, 191, 230);
+}
+.bank-xp .path1:before {
+  content: "\e94e";
+  color: rgb(1, 1, 1);
+}
+.bank-xp .path2:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}

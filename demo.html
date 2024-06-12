@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header com as Cores do Brasil</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            position: relative;
+        }
+
+        .header-shape {
+            width: 100%;
+            height: 200px;
+        }
+
+        h1 {
+            margin: 10px 0;
+            font-size: 36px;
+        }
+
+        p {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .brazil-flag {
+            position: absolute;
+            bottom: -20px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <svg class="header-shape" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="#009B3A" points="0,0 100,100 0,100"/>
+        </svg>
+        <h1>Seu Título Aqui</h1>
+        <p>Subtítulo ou descrição aqui</p>
+        <p>by Mauricio Steiguer <a href="https://www.linkedin.com/in/mauriciosteiguer/">LinkedIn</a></p>
+        <svg class="brazil-flag-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+            <rect width="100%" height="100%" fill="#FFFFFF"/>
+            <path fill="#009B3A" d="M0 0h500v600H0z"/>
+            <path fill="#FCD116" d="M500 0h500v600H500z"/>
+            <circle fill="#009B3A" cx="500" cy="300" r="80"/>
+            <g fill="#FFFFFF">
+                <path d="M440 250h120v100H440zM500 370l29.4 90.4L500 400l-79.4 60.4L420 370l-29.4 90.4-29.2-90.4-79.4 60.4L270 370l-29.4 90.4L211.4 370l-79.2 60.4L130 370"/>
+            </g>
+        </svg>
+    </header>
+    
+    <!-- Seu conteúdo aqui -->
+
+</body>
+</html>
